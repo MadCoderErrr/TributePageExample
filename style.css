@@ -1,0 +1,101 @@
+body {
+    background-color: #ececec;
+}
+
+@font-face {
+    font-family: 'Mali', cursive;
+    src: url('mali.woff');
+}
+
+h1 {
+    color: #026670;
+    font-family: 'Mali', cursive;
+}
+
+.BeeImage {
+    position: relative;
+    text-align: center;
+    color: #026670;
+}
+
+.ThankYou {
+    position: absolute;
+    color: #026670;
+    top: 8px;
+    left: 175px;
+    font-family: 'Mali', cursive;
+    font-size:100px;
+}
+
+.Reason1 {
+    position: absolute;
+    color: #026670;
+    top: 190px;
+    left: 175px;
+    font-family: 'Mali', cursive;
+    font-size:35px
+}
+
+.Reason2 {
+    position: absolute;
+    color: #026670;
+    top: 230px;
+    left: 175px;
+    font-family: 'Mali', cursive;
+    font-size:35px;
+}
+
+.Question {
+    font-family: 'Mali', cursive;
+    font-size:45px;
+}
+
+.paragraph {
+    border: 1px  #f3d250;
+    width: 800px;
+    height: 500px;
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #f78888;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.paragraph
+p {
+    font-size: 20px;
+}
+
+.learnMore {
+    background-color: #f3d250;
+    box-sizing: border-box;
+    width: 45%;
+    height: 250px;
+    position: relative;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.learnMore2 {
+    background-color: #90ccf4;
+    width: 45%;
+    height: 240px;
+    margin-top: 10px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.learnMore
+ul {
+    font-size: 20px;
+}
+
+.learnMore2
+ul {
+    font-size: 20px;
+}
